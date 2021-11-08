@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+li {
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(#6478e6, #9354e4);
+  height: 30vh;
+  padding: 20px;
+}
+h1 {
+  color: #fff;
+}
+.tab {
+  margin: 20px 0;
+  display: none;
+}
+.tab-done {
+  background-color: #fff;
+}
+.tab-incomplete {
+  background-color: #d1d1d1;
+}
+.active {
+  display: block;
+}
+.container{
+  padding: 20px;
+}
+.button-area {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: 0.1s;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.active-btn {
+  background-color: #6478e6;
+}
+.inactive-btn {
+  background-color: #d9dbe6;
+}
